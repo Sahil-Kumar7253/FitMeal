@@ -1,4 +1,4 @@
-const workoutService = require("../services/workoutService");
+const workoutService = require("../Services/workoutServices");
 
 async function createWorkout(req, res) {
   try {

@@ -1,4 +1,4 @@
-const logService = require('../Services/logService');
+const logService = require('../Services/logServices');
 
 async function createWorkoutLog(req, res) {
     try{

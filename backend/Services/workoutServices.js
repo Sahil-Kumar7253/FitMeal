@@ -1,4 +1,4 @@
-const Workout = require('../models/Workout');
+const Workout = require('../models/workoutModel');
 
 async function createWorkout(userId, workoutData) {
     const newWorkout = new Workout({ ...workoutData, user: userId });
